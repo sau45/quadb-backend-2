@@ -83,6 +83,6 @@ app.get('/api/tickers/data', async(req,res)=>{
 
 
 
-app.listen(8080, () => {
+app.listen(process.env.PORT, () => {
   console.log('Server running on http://localhost:8080');
 });
