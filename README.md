@@ -47,8 +47,8 @@ The application follows a MVC architecture:
 ### Steps
 1. **Clone the Repository:**
    ```sh
-   git clone https://github.com/piyushkumarg/driffle-backend-assignment.git
-   cd driffle-backend-assignment
+   git clone https://github.com/sau45/quadb-backend-2.git
+   
 
 2. **Install Dependencies:**
    - npm install
