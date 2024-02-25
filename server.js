@@ -15,19 +15,9 @@ app.use(cors());
 
 
 
-app.get('/api/tickers/data', async(req,res)=>{
+  app.use("/api/tickers/data",getdatarouter);
     
-    try {
-        const data= await pool.query("SELECT * FROM ticker_data ;");
-        // console.log(data.rows)
-        res.json({status:true,data : data.rows});
-    } catch (error) {
-        throw error;
-        
-    }
-})
-    
-    
+    // this middleware has been used for once for saving the data to postgresql, it is functional 
     // app.use('/api/tickers', async (req, res) => {
     //     try {
     //         const response = await axios.get('https://api.wazirx.com/api/v2/tickers');

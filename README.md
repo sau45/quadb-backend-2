@@ -11,7 +11,7 @@ This project serves as the backend application for managing cryptocurrency data.
 
 - **Fetch Data:** Fetches the top 10 results from the WazirX API and stores them in the database.
 - **Display Data:** Displays the stored data on the frontend webpage, similar to hodlinfo.com.
-- **Responsive Design:** Responsive design to ensure the webpage looks good on different devices.
+- **Responsive Design:** Responsive design to ensure the webpage looks good on different devices..
 
 
 ## Tech Stack
